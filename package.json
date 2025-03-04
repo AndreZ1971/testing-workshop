@@ -1,0 +1,22 @@
+{
+  "name": "testing-workshop",
+  "version": "1.0.0",
+  "description": "Ein Projekt zur Implementierung von Unit-Tests mit Vitest",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "vitest --coverage",
+    "prepare": "husky install"
+  },
+  "keywords": ["testing", "unit-tests", "vitest", "husky", "ci/cd"],
+  "author": "Dein Name",
+  "license": "ISC",
+  "devDependencies": {
+    "husky": "^9.1.7",
+    "lint-staged": "^15.4.3",
+    "vitest": "^3.0.7"
+  },
+  "lint-staged": {
+    "tests/**/*.js": "vitest related"
+  }
+}
