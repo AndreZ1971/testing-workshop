@@ -8,10 +8,17 @@
     "test": "vitest --coverage",
     "prepare": "husky install"
   },
-  "keywords": ["testing", "unit-tests", "vitest", "husky", "ci/cd"],
+  "keywords": [
+    "testing",
+    "unit-tests",
+    "vitest",
+    "husky",
+    "ci/cd"
+  ],
   "author": "Dein Name",
   "license": "ISC",
   "devDependencies": {
+    "@vitest/coverage-v8": "^3.0.7",
     "husky": "^9.1.7",
     "lint-staged": "^15.4.3",
     "vitest": "^3.0.7"

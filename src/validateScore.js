@@ -64,13 +64,13 @@ function validateScore(score, options = {}) {
     // Bonus-Punkte hinzufügen (maximal 10 Zusatzpunkte)
     let finalScore = score;
     
-    2. Erstelle eine Test-Datei tests/validateScore.test.js und schreibe Tests mit Vitest,
-    die Folgendes abdecken:
-    Basisvalidierung (gültige und ungültige Punktzahlen)
-    Strikte Validierung (wenn strictMode aktiviert ist)
-    Bonuskategorien und deren Auswirkung auf die Endpunktzahl
-    Bestandsprüfung mit verschiedenen Schwellenwerten
-    Notenberechnung
+   // 2. Erstelle eine Test-Datei tests/validateScore.test.js und schreibe Tests mit Vitest,
+    //die Folgendes abdecken:
+   // Basisvalidierung (gültige und ungültige Punktzahlen)
+   // Strikte Validierung (wenn strictMode aktiviert ist)
+    //Bonuskategorien und deren Auswirkung auf die Endpunktzahl
+   // Bestandsprüfung mit verschiedenen Schwellenwerten
+   // Notenberechnung
     if (bonusCategories.length > 0) {
     const bonusPoints = Math.min(bonusCategories.length * 2, 10);
     finalScore = Math.min(finalScore + bonusPoints, 100);
