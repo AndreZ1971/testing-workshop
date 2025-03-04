@@ -1,7 +1,6 @@
 # Testing-Dokumentation
 
 ## 1. Test Coverage Report
-![Coverage Screenshot](./coverage.png)
 
 ## 2. Entdeckte Fehler und Edge Cases:
 - Fehlerhafte Eingabe (Nicht-Zahlen): Führte zu unerwartetem Verhalten, jetzt validiert.
@@ -17,4 +16,3 @@
 TDD hat sich als effektiv erwiesen, um Fehler früh zu erkennen und robuste Funktionen zu entwickeln. Allerdings benötigt es Disziplin und führt zu zusätzlichem initialem Aufwand.
 
 ## 5. Erfolgreiche GitHub Action:
-![GitHub Action Screenshot](./github-action.png)
